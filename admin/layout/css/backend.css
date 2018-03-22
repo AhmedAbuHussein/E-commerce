@@ -1,0 +1,485 @@
+body {
+    background-color: #F4F4F4;
+    font-size: 16px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.login {
+    width: 30%;
+    margin: auto;
+}
+
+.login h3 {
+    color: #777;
+}
+
+.login input {
+    margin-bottom: 10px;
+}
+
+.login .form-control {
+    background-color: #EAEAEA;
+}
+
+.login .btn-primary {
+    background-color: #008dde;
+}
+
+
+/*Start bootstrap Edit*/
+
+.navbar {
+    border-radius: 0;
+    border: none;
+    margin-bottom: 0;
+}
+
+.nav>li>a,
+.navbar-brand {
+    padding: 15px 12px;
+    color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a,
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-brand:hover {
+    color: #ddd;
+}
+
+.navbar-brand {
+    font-size: 1em;
+}
+
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:focus,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.dropdown-menu {
+    background-color: #FC427B;
+}
+
+.nav .dropdown {
+    background-color: #FC427B;
+}
+
+.dropdown-menu {
+    min-width: 180px;
+    padding: 0;
+    font-size: 1em;
+    border: none;
+    border-radius: 0;
+}
+
+.dropdown-menu>li>a {
+    color: #fff;
+    padding: 10px 15px;
+}
+
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover {
+    background-color: #B33771;
+    color: #FFF;
+}
+
+
+/*Start Dashboard page format*/
+
+.dashboard {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.home-stat,
+.latest {
+    margin-top: 20px;
+}
+
+.home-stat a.stat {
+    display: block;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #130f40;
+    padding: 10px;
+    font-size: 15px;
+    color: #FFF;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.home-stat a i {
+    margin: 20px;
+    font-size: 60px;
+    float: left;
+}
+
+.home-stat a .info {
+    float: left;
+    padding: 5px;
+}
+
+.home-stat a.stat:hover span,
+.home-stat a.stat:hover span,
+.home-stat a.stat:hover i,
+.home-stat a.stat:focus i {
+    color: #130f40;
+}
+
+.home-stat .stat span {
+    display: block;
+    font-size: 55px;
+    font-family: Georgia, cursive, Times, serif;
+}
+
+.home-stat .st-members {
+    background-color: #0652DD;
+}
+
+.home-stat .st-pending {
+    background-color: #EA2027;
+}
+
+.home-stat .st-items {
+    background-color: #FFC312;
+}
+
+.home-stat .st-comments {
+    background-color: #341f97;
+}
+
+.latest .panel .panel-body {
+    display: none;
+}
+
+.panel .panel-heading .show-panel {
+    color: #999;
+    cursor: pointer;
+}
+
+.panel .panel-heading .show-panel:hover {
+    color: #333;
+}
+
+.latest-list {
+    margin-bottom: 0;
+}
+
+.panel .panel-body .row {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-bottom: 1px solid #d2d2d2;
+}
+
+.panel .panel-body .row .user {
+    padding: 5px;
+    text-align: center;
+}
+
+.panel .panel-body .row .user img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+}
+
+.panel .panel-body .row .comments {
+    background-color: #ededed;
+    padding: 5px;
+    font-size: 16px;
+    font-family: cursive;
+}
+
+.panel .panel-body .row .controls {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.latest-list li {
+    padding: 5px;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: cursive;
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+}
+
+.latest-list li:nth-child(odd) {
+    background-color: #ecf0f1;
+}
+
+.latest-list li:last-child {
+    border-bottom: none;
+}
+
+.latest-list li a {
+    margin-right: 5px;
+    font-size: 12px;
+}
+
+.latest-list li span {
+    position: relative;
+    top: 5px;
+    right: 13px;
+    background-color: #eb3b5a;
+}
+
+
+/*Start Edit page format*/
+
+h2 {
+    font-weight: bold;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    color: #555;
+}
+
+@media screen and (max-width: 767px) {
+    .form-container {
+        width: 95%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .form-container {
+        width: 60%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin: auto;
+    }
+    .add-member {
+        display: inline-block;
+        width: 200px;
+        height: 200px;
+        line-height: 200px;
+        background-color: #7caf29;
+        border-radius: 5px;
+        color: white;
+        font-size: 1.2em;
+        font-family: cursive;
+    }
+    .add-member:hover,
+    .add-member:focus {
+        text-decoration: none;
+        color: #ddd;
+    }
+}
+
+.form-container .form-group {
+    background-color: #424242;
+    margin-bottom: 20px;
+}
+
+.form-container .form-group:last-child {
+    background-color: transparent;
+}
+
+.form-container .form-group label {
+    color: white;
+    padding: 10px 0;
+    display: block;
+    text-align: center;
+}
+
+.form-container .form-group input:not([type='submit']),
+.form-container .form-group textarea {
+    border-radius: 0;
+    border: 1px solid #424242;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #61a539;
+    resize: none;
+}
+
+.form-group {
+    position: relative;
+}
+
+.form-container .row .radio-group .box {
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px;
+    color: white;
+}
+
+.form-container .row .radio-group:hover .box {
+    color: #130f40;
+}
+
+.form-container .row .radio-group:first-child .box {
+    background-color: #8854d0;
+}
+
+.form-container .row .radio-group:nth-child(2) .box {
+    background-color: #0fb9b1;
+}
+
+.form-container .row .radio-group:last-child .box {
+    background-color: #fa8231;
+}
+
+.form-container .row .radio-group label:first-child {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.form-container .row .radio-group label:not(:first-child) {
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.form-container .row .radio-group {
+    margin-bottom: 30px;
+}
+
+.require {
+    font-size: 22pt;
+    position: absolute;
+    right: 15px;
+    top: 45px;
+    color: #ff5252;
+}
+
+
+/*End Edit page format*/
+
+
+/*Member page format*/
+
+.show-pass {
+    position: absolute;
+    top: 47px;
+    right: 9px;
+    font-size: 18pt;
+}
+
+.cust-table {
+    -webkit-box-shadow: 0px 6px 10px #323232;
+    -moz-box-shadow: 0px 6px 10px #323232;
+    box-shadow: 0px 6px 10px #323232;
+}
+
+.cust-table tr td {
+    background-color: #fff;
+}
+
+.cust-table tr:nth-child(odd) td {
+    background-color: #ecf0f1;
+}
+
+.cust-table tr:first-child th {
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.cust-table tr td .btn {
+    padding: 3px 10px;
+    margin-bottom: 10px;
+}
+
+
+/*category format*/
+
+.panel {
+    margin-bottom: 5px;
+}
+
+.panel-default .panel-body {
+    padding: 0px 15px;
+}
+
+.cat-box {
+    border-bottom: 1px solid #ddd;
+    position: relative;
+    overflow: hidden;
+}
+
+.cat-box:last-child {
+    border-bottom: none;
+}
+
+.cat-box:hover .btn {
+    right: 10px;
+    transition: all 1s ease-in-out;
+}
+
+.cat-box .btn {
+    position: relative;
+    top: 3px;
+    right: -150px;
+    margin-right: 10px;
+}
+
+.cat-box h3 {
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.cat-box .cat-info {
+    display: none;
+}
+
+.cat-box .cat-info .badge {
+    padding: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.cat-box .cat-info .visibility {
+    background-color: #fa8231;
+}
+
+.cat-box .cat-info .comment {
+    background-color: #8854d0;
+}
+
+.cat-box .cat-info .ads {
+    background-color: #7caf29;
+}
+
+.active {
+    color: #ff5252;
+}
+
+.cus-btn {
+    width: 100%;
+    background-color: transparent;
+    font-size: inherit;
+    font-weight: bold;
+}
+
+
+/*Items format*/
+
+.selectboxit-container {
+    width: 100%;
+}
+
+.selectboxit-container .selectboxit {
+    width: 100%;
+    border-radius: 0;
+}
+
+.selectboxit-container span,
+.selectboxit-container .selectboxit-options a {
+    height: 34px;
+    line-height: 34px;
+    font-size: 20px;
+    font-family: 'Times new Roman', Arial, sans-serif;
+}
+
+
+/*End bootstrap Edit*/
